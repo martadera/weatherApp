@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radar pogodowy</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class='container'>
+
+        <h1 class='title'>Radar pogodowy.</h1><img class='sun' src="sun.png" alt="słońce">
+        <div class='content'>
+            <div class='selector'>
+                <p class="containerSel">
+                    <label class="field a-field a-field_a1 page__field">
+                        <input class="field__input" placeholder="np. Gdańsk" required>
+                          <span class="field__label-wrap">
+                            <span class="field__label">Wpisz miasto</span>
+                          </span>
+                    </label>
+                </p>
+
+            </div>
+            <div class='data'>
+                <span class='city'></span>
+                <div class='icon'><img class='currentIcon' src='' alt=""></div>
+                <div class='desc'></div>
+                <div class='temp'></div>
+                <div class='pressure'></div>
+                <div class='humidity'></div>
+                <div class='wind'></div>
+                <button class='hidden'>Sprawdź prognozę na 5 dni</button>
+            </div>
+        </div>
+    </div>
+    <section class='container5 hidden'>
+        <div class="data5">
+            <div class='day'></div>
+            <div class='icon5'><img class='icon5' src='' alt=""></div>
+            <div class='desc5'></div>
+            <div class='temp5'></div>
+            <div class='pressure5'></div>
+            <div class='humidity5'></div>
+            <div class='wind5'></div>
+        </div>
+        <div class="data5">
+            <div class='day'></div>
+            <div class='icon5'><img class='icon5' src='' alt=""></div>
+            <div class='desc5'></div>
+            <div class='temp5'></div>
+            <div class='pressure5'></div>
+            <div class='humidity5'></div>
+            <div class='wind5'></div>
+        </div>
+        <div class="data5">
+            <div class='day'></div>
+            <div class='icon5'><img class='icon5' src='' alt=""></div>
+            <div class='desc5'></div>
+            <div class='temp5'></div>
+            <div class='pressure5'></div>
+            <div class='humidity5'></div>
+            <div class='wind5'></div>
+        </div>
+        <div class="data5">
+            <div class='day'></div>
+            <div class='icon5'><img class='icon5' src='' alt=""></div>
+            <div class='desc5'></div>
+            <div class='temp5'></div>
+            <div class='pressure5'></div>
+            <div class='humidity5'></div>
+            <div class='wind5'></div>
+        </div>
+        <div class="data5">
+            <div class='day'></div>
+            <div class='icon5'><img class='icon5' src='' alt=""></div>
+            <div class='desc5'></div>
+            <div class='temp5'></div>
+            <div class='pressure5'></div>
+            <div class='humidity5'></div>
+            <div class='wind5'></div>
+        </div>
+    </section>
+    <script src='script.js'></script>
+</body>
+
+</html>
